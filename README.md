@@ -36,11 +36,11 @@ list.removeIf(item -> now.before(item.getStartTime()) || now.after(item.getEndTi
 list.removeIf(item -> now.compareTo(item.getStartTime()) < 0 || now.compareTo(item.getEndTime()) > 0);
 ```
 
-1. IDEA 完全退出项目
+18. IDEA 完全退出项目
     1. 需要把 .idea .iml 文件都删除才行
     2. 删除后重新导入项目，并在 module 中设置好 resource
-2. Chrome 可以在地址栏通过标签备注，直接检索到网址
-3. MySQL insert 省略自增 ID
+19. Chrome 可以在地址栏通过标签备注，直接检索到网址
+20. MySQL insert 省略自增 ID
     
     ```sql
     INSERT INTO `sys_config`
@@ -50,8 +50,8 @@ list.removeIf(item -> now.compareTo(item.getStartTime()) < 0 || now.compareTo(it
             '(每项必填)\nachieveAmountFreeExpress:满多少免运费\nbaseCount:2 几件商品内基础运费\nbaseFee:6.00 基础运费\nextraFee:1.00 超出基础运费后每件加多少');
     ```
     
-4. [chorme 多开账号 导入书签](https://www.hellotech.com/guide/for/how-to-export-save-import-bookmarks-in-chrome)
-5. 程序开发清单
+21. [chorme 多开账号 导入书签](https://www.hellotech.com/guide/for/how-to-export-save-import-bookmarks-in-chrome)
+22. 程序开发清单
     1. 是否兼容已有业务和数据
     2. 是否对活动开始结束时间做了限制
     3. 辅助脚本是否会带来脏数据
